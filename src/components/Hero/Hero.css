@@ -1,0 +1,81 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    /* var(--..ColorName..) */
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../assets/Background.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.display{
+	display: flex;
+	flex-direction: column;
+}
+
+.heroChild{
+	/* padding: Top Right Bottom Left; */
+	margin: 0 0 2% 8%;
+	color: var(--whiteColor);
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.Hello{
+	color: var(--grayColor);
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans';
+}
+
+.Name{
+	font-size: 70px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+}
+
+.CSE{
+	font-size: 25px;
+	margin-bottom: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans';
+}
+
+.displayCV{
+	background-color: var(--mainColor);
+	text-align: center;
+	width: fit-content;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: 0.5s;
+	cursor: pointer;
+	font-size: 18px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+}
+
+.displayCV:hover{
+	transform: scale(1.2,1.2);
+}
+
+.icon, .docImg{
+	width: 30px;
+	height: 30px;
+	right: 10px;
+}
+
+@media screen {
+	
+}
