@@ -226,7 +226,7 @@ function Projects() {
                             <div className="ProjectDate">
                                 22-2-2023
                             </div>
-                            <a href="" className="link">
+                            <a href="https://github.com/Sh0aib-Ja0allah/reactportfolio" className="link">
                                 Github
                             </a>
                         </div>
