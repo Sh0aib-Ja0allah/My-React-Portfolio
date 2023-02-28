@@ -1,7 +1,7 @@
 ## To Run this project follow this link: <br /> https://sh0aib-ja0allah.github.io/reactportfolio/
 
 <br />
-### The Sketch design that I had use:<br />
+### The Sketch design that I had use:<br /> 
 ![Design preview for the First task](./src/components/assets/design.jpg)
 <br />
 
