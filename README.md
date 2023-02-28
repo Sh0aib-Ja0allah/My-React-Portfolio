@@ -2,7 +2,7 @@
 
 <br />
 ### The Sketch design that I had use:<br /> 
-![Design preview for the First task](../src/components/assets/design.jpg)
+![Design preview for the First task](./design.jpg)
 <br />
 
 # * To publish your react app in Github pages <br />environment you need to do the following steps:
