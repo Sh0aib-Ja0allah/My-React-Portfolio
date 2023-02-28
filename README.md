@@ -1,6 +1,8 @@
 ## To Run this project follow this link: <br /> https://sh0aib-ja0allah.github.io/reactportfolio/
 
 <br />
+### The Sketch design that I had use:
+![Design preview for the First task](./design.jpg)
 <br />
 
 # * To publish your react app in Github pages <br />environment you need to do the following steps:
