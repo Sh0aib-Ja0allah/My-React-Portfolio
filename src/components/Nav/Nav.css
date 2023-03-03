@@ -1,0 +1,39 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    /* var(--..ColorName..) */
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    border-radius: 3rem;
+    width: fit-content;
+    backdrop-filter: blur(20px);
+    bottom: 2rem;
+    left: 30%;
+    position: fixed;
+    z-index: 2;
+}
+.home{
+    background-color: var(--mainColor);
+}
+
+.navChild{
+    padding: 10px 15px;
+    border-radius: 70px;
+}
+
+@media screen and (max-width:600px) {
+    .nav{
+        /* display: none; */
+        width: 375px;
+        left: 0%;
+        bottom: 2rem;
+    }
+}
