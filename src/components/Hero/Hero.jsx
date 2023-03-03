@@ -19,7 +19,7 @@ function hero() {
           I'm a Computer Systems Engineer.
         </span>
         <span className='heroChild displayCV'>
-          <a download className='CV' href="./assets/ShoaibJadallahCV.pdf">Download CV</a>{/* <img className='docImg' src={doc} alt="this is the CV doc icon" /> */}
+          <a download className='CV' href="%PUBLIC_URL%/shoaibjadallahcv.pdf">Download CV</a>{/* <img className='docImg' src={doc} alt="this is the CV doc icon" /> */}
         </span>
       </div>
       <Nav />
