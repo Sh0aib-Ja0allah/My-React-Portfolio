@@ -1,0 +1,43 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    /* var(--..ColorName..) */
+}
+
+.desktopNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 3rem;
+    width: fit-content;
+    backdrop-filter: blur(30px);
+    bottom: 2rem;
+    left: 33%;
+    position: fixed;
+    z-index: 3;
+}
+.homeIcon{
+    background-color: var(--mainColor);
+}
+
+.projectsIcon{
+    padding: 10px 13px;
+}
+
+.desktopNavChild{
+    padding: 10px 13px;
+    border-radius: 70px;
+    margin: 0;
+}
+
+@media screen and (max-width:500px) {
+    .desktopNav{
+        display: none;
+    }
+}

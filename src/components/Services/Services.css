@@ -1,0 +1,86 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    /* var(--..ColorName..) */
+}
+
+.Services{
+    padding-top: 15px;
+    background-color: var(--blackColor);
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ServicesTitle{
+    justify-content: center;
+    text-align: center;
+}
+.Title{
+    font-size: 75px;
+    color: var(--whiteColor);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ServicesChild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service{
+    width: 300px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--blackColor2);
+    padding: 1% 2%;
+    border-radius: 30px;
+    margin: 40px 30px;
+    border-bottom: 3px solid var(--grayColor) ;
+    border-top: 3px solid var(--grayColor) ;
+}
+
+.serviceTitle{
+    color: var(--grayColor);
+    /* border-bottom: 1px solid var(--grayColor); */
+    width: 250px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.Icon{
+    justify-content: center;
+    text-align: center;
+}
+
+.serviceDescription{
+    color: var(--whiteColor);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.link{
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.linkDiv{
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    
+}
