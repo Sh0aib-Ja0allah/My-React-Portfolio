@@ -1,0 +1,165 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    /* var(--..ColorName..) */
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../assets/Background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.display{
+	display: flex;
+	flex-direction: column;
+	padding-top: 120px;
+}
+
+.heroChild{
+	/* padding: Top Right Bottom Left; */
+	margin: 0 0 2% 8%;
+	color: var(--whiteColor);
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.Hello{
+	color: var(--grayColor);
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans';
+}
+
+.Name{
+	font-size: 70px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	display: flex;
+	flex-direction: row;
+}
+
+.CSE{
+	font-size: 25px;
+	margin-bottom: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans';
+}
+
+.displayCV{
+	background-color: var(--mainColor);
+	text-align: center;
+	width: fit-content;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: 0.5s;
+	cursor: pointer;
+	font-size: 18px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+}
+
+.displayCV:hover{
+	transform: scale(1.2,1.2);
+}
+
+.icon, .docImg{
+	width: 30px;
+	height: 30px;
+	right: 10px;
+}
+
+.menu, .navMobile{
+	display: none;
+}
+
+@media screen and (max-width:500px) {
+	.none{
+		display: none;
+	}
+
+    .Name{
+		font-size: 40px;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: normal;
+		margin: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.CSE{
+		font-size: 18px;
+		margin-bottom: 50px;
+		font-weight: 600;
+		letter-spacing: 2px;
+		font-family: 'Josefin Sans';
+	}
+
+	/* start nav mobile styling */
+	.displayMenu:hover .navMobile{
+		display: flex;
+	}
+
+	.navMobile{
+    	display: none;
+	    flex-direction: column;
+    	justify-content: space-evenly;
+    	padding: 15px 15px;
+	    border-radius: 3rem;
+	    width: fit-content;
+    	height: 390px;
+    	backdrop-filter: blur(30px);
+    	top: 4.5rem;
+    	right: 0.5%;
+    	position: fixed;
+    	z-index: 2;
+	}
+
+	.homeMobile{
+    	background-color: var(--mainColor);
+	}
+
+	.navMobileChild{
+    	padding: 10px 15px;
+    	border-radius: 70px;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+    	align-items: center;
+    	color: var(--whiteColor);
+	}
+
+	.navMobileChildText{
+		display: block;
+    	margin-left: 20px;
+    	font-weight: 600;
+    	letter-spacing: 1px;
+    	font-family: 'Times New Roman', Times, serif;
+    	width: fit-content;
+    	font-size: 20px;
+	}
+	/* end nav mobile styling */
+
+	/* start menu mobile styling */
+	.menu{
+		display: block;
+    	transform: scale(0.5,0.5);
+    	border: 5px solid var(--whiteColor);
+    	border-radius: 10px;
+    	padding: 10px;
+    	backdrop-filter: blur(15px);
+    	position: fixed;
+		right: 0.5%;
+		z-index: 5;
+	}
+	/* end menu mobile styling */
+}
